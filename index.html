@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="På Bonz.AI möts teknologi och natur i harmoni. Njut av AI-anpassade tjänster och en hållbar hotellupplevelse som värnar om planeten.">
+    <title>Bonz.AI</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bagel+Fat+One&family=Oswald:wght@200..700&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/5f2b001e16.js" crossorigin="anonymous"></script>
+</head>
+<body class="site-body">
+    <header class="site-header">
+        <h1 class="site-header__title">Bonz.AI</h1>
+        <input type="checkbox" id="menu-toggle" class="site-header__checkbox">
+        <label for="menu-toggle" class="site-header__menu-icon">
+            <i class="site-header__menu-icon fa-solid fa-bars"></i>
+        </label>
+        <nav class="site-nav">
+            <ul class="site-nav__list">
+                <li><a href="/index.html">Hem</a></li>
+                <li><a href="/omoss.html">Om Bonz.AI</a></li>
+                <li><a href="/bokning.html">Bokning</a></li>
+                <li><a href="/index.html#footer">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+
+<!-- Hero -->
+        <section class="hero">
+            <img src="img/08-night.jpg" alt="hotellrum med brasa och havsutsikt på kvällen" class="hero__image">
+            <article class="hero__content">
+                <h2 class="hero__title">Välkommen till <span class="hero__title-gold">Bonz.AI</span></h2>
+                <h2 class="hero__title hero__title--italic">Hotellet där smart teknologi <br>möter grön harmoni</h2>
+                <a href="bokning.html" class="button button--yellow">Till bokning</a>
+            </article>
+        </section>
+
+<!-- Key features -->
+        <section class="features-offers-desktop-wrapper">
+        <article class="features">
+            <h2 class="features__title">Vad du kan förvänta dig:</h2>
+            <section class="features__row">
+               <i class="features__plant-icon fa-brands fa-pagelines"></i> 
+               <p class="features__text">AI-driven upplevelse</p>
+            </section>
+            <section class="features__row">
+               <i class="features__plant-icon fa-brands fa-pagelines"></i>
+               <p class="features__text">Miljövänliga alternativ</p>
+            </section>
+            <section class="features__row">
+                <i class="features__plant-icon fa-brands fa-pagelines"></i>
+                <p class="features__text">Lyxig komfort</p>
+            </section>
+            <p class="features__text--desktop">På Bonz.AI kombineras det bästa av teknologi, hållbarhet och elegans för att skapa en vistelse som både inspirerar och imponerar.</p>
+            <a href="omoss.html" class="button button--lightyellow button--align-center">Upptäck mer</a>
+        </article>
+
+<!-- Erbjudanden -->
+        <section class="offers">
+            <h2 class="offers__title">Aktuella erbjudanden</h2>
+            <article class="offers__card">
+                <img src="img/04-day.jpg" alt="en säng i ett hotellrum med snedtak" class="offers__image">
+                    <p class="offers__text">Säg hej till vårt nyaste tillskott - glampingrummet! Nedsatt pris under lanseringsveckan.</p>
+            </article>
+            <article class="offers__card">
+                <img src="img/09-day.jpg" alt="en terass med loungegrupp med utsikt över vattnet och bergen" class="offers__image offers__image--position-center-right">
+                    <p class="offers__text">Upplev magisk utsikt över berg och vatten - kampanj gäller endast idag!</p>
+            </article>
+            <article class="offers__card">
+                <img src="img/05-day.jpg" alt="en soffa i ett hotellrum i dagsljus" class="offers__image offers__image--position-right">
+                    <p class="offers__text">Boka vårt mest populära rum - nu för 30% rabatt!</p>
+            </article>
+        </section>
+    </section>
+
+<!-- Kontaktformulär -->
+        <section class="contactform">
+            <h2 class="contactform__title">Kontakta oss</h2>
+            <form>
+                <label for="namn" class="contactform__label"><span class="required-star">*</span>Namn</label>
+                <input type="text" id="namn" name="name" class="contactform__input" placeholder="Namn" required/>
+                <label for="email" class="contactform__label"><span class="required-star">*</span>E-postadress</label>
+                <input type="email" id="email" name="email" class="contactform__input" placeholder="E-postadress" required/>
+                <label for="meddelande" class="contactform__label"><span class="required-star">*</span>Meddelande</label>
+                <textarea id="meddelande" name="meddelande" class="contactform__textarea" rows="4" placeholder="Meddelande" required></textarea>
+                <button type="submit" class="button button--green button--align-center">Skicka</button>
+            </form>
+        </section>
+
+<!-- Footer -->
+        <footer class="footer" id="footer">
+            <address class="footer__address">
+            <h2 class="footer__title">Här finns vi:</h2>
+                <a href="https://www.google.com/maps/place/Sälviksvägen+14,+Fjällbacka" target="_blank" rel="noopener noreferrer" class="footer__address-link">Sälviksvägen 14,<br>457 40 Fjällbacka</a>
+            </address>
+            <aside class="footer__socials">
+                <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer" class="footer__social-link" aria-label="facebook">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+                <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" class="footer__social-link" aria-label="instagram">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+            </aside>
+        </footer>
+    </main>
+</body>
+</html>

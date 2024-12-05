@@ -228,7 +228,7 @@ html {
     margin-left: 0.6rem;
 }
 
-.features__text, .features__text--desktop {
+.features__text, .features__text-desktop {
     font-family: var(--font-secondary);
     font-weight: var(--font-secondary-weight);
     color: var(--color-lightyellow);
@@ -439,7 +439,7 @@ html {
     margin-bottom: 0.6rem;
 }
 
-.facilities__list, .facilities__list-desktop {
+.facilities__list {
     padding-left: 1rem;
 }
 
@@ -543,7 +543,7 @@ html {
     color: var(--color-lightyellow);
 }
 
-.calendar__second-header {
+.calendar__week {
     display: grid;
     grid-template-columns: repeat(7, 1fr);
     background-color: var(--color-lightyellow);
@@ -760,10 +760,10 @@ html {
     }
 
     .site-nav__list a {
-        text-decoration: none;
-        color: var(--color-green);
         font-family: var(--font-secondary);
         font-size: 1.6rem;
+        color: var(--color-green);
+        text-decoration: none;
     }
 
     .site-nav__list a:hover {
@@ -790,7 +790,7 @@ html {
         font-size: 2.2rem;
     }
 
-    .hero__title--gold {
+    .hero__title-gold {
         font-size: 2.8rem;
     }
 
@@ -808,7 +808,7 @@ html {
         font-size: 2.2rem;
     }
 
-    .features__text--desktop {
+    .features__text-desktop {
         margin-top: 1rem;
         margin-bottom: 1rem;
     }
@@ -925,7 +925,7 @@ html {
         display: none;
     }
 
-    .features__text--desktop {
+    .features__text-desktop {
         display: none;
     }
 }
